@@ -1,0 +1,25 @@
+.xdebug-var-dump {
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.05);
+  margin: 20px 20px;
+  padding: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.xdebug-var-dump * {
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.xdebug-var-dump :first-child {
+  display: none;
+}
+
+.xdebug-var-dump :is(i) {
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 5;
+}
